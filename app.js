@@ -24,17 +24,23 @@ switch (a) {
     // Instructions à exécuter lorsque le résultat
     // de l'expression correspond à valeur2
         document.getElementById("demo").innerHTML = "Test coude";
+		document.getElementById("myImageId").src="chest.png";
     break;
 	  case 5:
     // Instructions à exécuter lorsque le résultat
     // de l'expression correspond à valeur2
         document.getElementById("demo").innerHTML = "Test main";
+		document.getElementById("myImageId").src="shoulder.png";
     break;
 	  case 6:
     // Instructions à exécuter lorsque le résultat
     // de l'expression correspond à valeur2
         document.getElementById("demo").innerHTML = "Test Pied";
+		document.getElementById("myImageId").src="knee.png";
     break;
+  }
+  if (a==7){
+  document.getElementById("titre").innerHTML = "Phase2";
   }
 
 }
