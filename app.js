@@ -24,7 +24,7 @@ switch (a) {
     // Instructions à exécuter lorsque le résultat
     // de l'expression correspond à valeur2
         document.getElementById("demo").innerHTML = "Test coude";
-		document.getElementById("myImageId").src="chest.png";
+		document.getElementById("myImageId").src="tits.png";
     break;
 	  case 5:
     // Instructions à exécuter lorsque le résultat
