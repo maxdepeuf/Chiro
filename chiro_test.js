@@ -40,7 +40,7 @@ switch (a) {
     break;
   }
   if (a==7){
-  document.getElementById("titre").innerHTML = "TEST IFEC: Phase 2";
+  document.getElementById("titre").innerHTML = "TEST SFMA: Phase 2";
   }
 
 }
