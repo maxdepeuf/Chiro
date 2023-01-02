@@ -87,8 +87,9 @@ switch (a) {
 		document.getElementById("myImageId").src="Squat.png";
     break;
   }
-  if (a==15){
+  if (a==14){
   document.getElementById("titre").innerHTML = "TEST SFMA: Phase 2";
+  document.getElementById("demo").innerHTML = " ";
   }
 
 }
