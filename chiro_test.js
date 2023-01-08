@@ -147,13 +147,14 @@ switch (scanP1) {
 	}
 	document.getElementById("demo").innerHTML = nameTest[scanP2];
 	document.getElementById("myImageId").src=nameFigu[scanP2];
-	document.getElementById("namt").innerHTML = scanP2;
+	/*document.getElementById("namt").innerHTML = scanP2;
 	document.getElementById("numt").innerHTML = reslutP1;
+	*/
 	scanP2=scanP2+1;
 	if(scanP2==15){
 		Phase=3;
 	document.getElementById("titre").innerHTML = "TEST SFMA: Fini";
-	document.getElementById("namt").innerHTML = reslutP2;
+	/*document.getElementById("namt").innerHTML = reslutP2;*/
 	document.getElementById("myImageId").src="smile.png";
 	document.getElementById("demo").innerHTML = "Ok";
   }
